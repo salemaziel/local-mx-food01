@@ -33,14 +33,14 @@ const Layout = ({ children }) => {
           <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
           <Footer
-            bg="white"
-            textColor="dark"
+            bg="success"
+            textColor="light"
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            description="A short description of what you do here"
-            copyright="© 2019 Company"
-            logo="https://uploads.divjoy.com/logo.svg"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            copyright="© 2020"
+            logo="https://res.cloudinary.com/dexdumfqy/image/upload/v1600246731/rbl-art-designs/albertos-logo-2_fqr69v.png"
           />
         </>
   );

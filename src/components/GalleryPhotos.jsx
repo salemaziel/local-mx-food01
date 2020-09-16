@@ -9,6 +9,7 @@ import galleryStyle from "./gallery.module.css";
 
 import {
   GatsbyIcon,
+  StockTaco01_2
 
 } from "../images/index";
 
@@ -30,40 +31,40 @@ class GalleryPhotos extends React.Component {
   render() {
     const images = [
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
       {
-        original: GatsbyIcon,
-        thumbnail: GatsbyIcon,
+        original: StockTaco01_2,
+        thumbnail: StockTaco01_2,
       },
     ];
     return (

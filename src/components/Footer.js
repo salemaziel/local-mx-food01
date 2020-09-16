@@ -45,13 +45,13 @@ function Footer(props) {
             <div className="FooterComponent__menus">
               <Row>
                 <Col xs={12} md={4} className="mt-3 mt-md-0">
-                  <h5>Product</h5>
+                  <h5>Menu</h5>
                   <ul className="list-unstyled">
                     <li>
-                      <Link to="/pricing">Pricing</Link>
+                      <Link to="/">Order Online</Link>
                     </li>
                     <li>
-                      <Link to="/faq">FAQ</Link>
+                      <Link to="/">Catering</Link>
                     </li>
                   </ul>
                 </Col>

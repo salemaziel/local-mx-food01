@@ -1,11 +1,12 @@
 import React from "react";
-import { Col, Row, Card, ListGroup } from "react-bootstrap";
+import { Col, Row, Card, ListGroup, Container } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
+    <Container>
     <Row>
       <Col>
         <h1>About</h1>
@@ -13,7 +14,7 @@ const AboutPage = () => (
       </Col>
     </Row>
     <Row>
-      <Col md="6">
+      {/*<Col md="6">
         <Card>
           <Card.Body>
             <Card.Title>Features</Card.Title>
@@ -40,8 +41,9 @@ const AboutPage = () => (
             </Card.Text>
           </Card.Body>
         </Card>
-      </Col>
+</Col>*/}
     </Row>
+    </Container>
   </Layout>
 );
 

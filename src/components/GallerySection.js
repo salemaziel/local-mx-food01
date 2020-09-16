@@ -14,9 +14,9 @@ function GallerySection(props) {
       bgImageOpacity={props.bgImageOpacity}
     >
       <Container
-        style={{
+        /*style={{
           maxWidth: "768px",
-        }}
+        }}*/
       >
         <SectionHeader
           title={props.title}

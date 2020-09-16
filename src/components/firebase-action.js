@@ -1,3 +1,7 @@
+//
+//            THIS IS A PAGE, NOT A COMPONENT
+//
+
 /*import React, { useEffect, useState } from "react";
 import PageLoader from "../components/PageLoader";
 import FormAlert from "../components/FormAlert";

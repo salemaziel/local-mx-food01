@@ -21,7 +21,7 @@ function HeroSection(props) {
         <Row className="align-items-center">
           <Col>
             <figure className="HeroSection__image-container mx-auto">
-              <Image src={props.image} fluid={true} />
+              <Image src={props.image} fluid={true} style={{boxShadow: '0px 5px 11px black'}} />
             </figure>
           </Col>
           <Col

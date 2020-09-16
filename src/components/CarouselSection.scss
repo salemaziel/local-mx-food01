@@ -1,0 +1,11 @@
+
+.carousel-inner {
+    max-height: 800px;
+    min-height: 800px;
+}
+
+@media screen and (max-width: 480px){
+    .carousel-inner {
+        min-height: auto;
+    }
+}

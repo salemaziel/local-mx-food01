@@ -5,6 +5,7 @@ module.exports = {
     title: `Minimalistic Bootstrap Gatsby Starter`,
     description: `A simple Gatsby starter with react-bootstrap`,
     author: `@salemaziel`,
+    siteUrl: `https://salemaziel.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
